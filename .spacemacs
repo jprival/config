@@ -257,6 +257,7 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  (golden-ratio-mode 1)
   (defun fit-window-to-buffer-width (&optional window max-width min-width)
     "Fit WINDOW according to its buffer's width.
 WINDOW, MAX-WIDTH and MIN-WIDTH have the same meaning as in
